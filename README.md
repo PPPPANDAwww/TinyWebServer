@@ -1,3 +1,3 @@
 # TinyWebServer
 
-This is a project of tinywebserver.
+linux webserver study note.
