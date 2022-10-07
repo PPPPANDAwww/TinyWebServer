@@ -6,6 +6,7 @@
 #include <sys/mman.h>
 #include <string.h>
 #include <stdio.h>
+#include <sys/wait.h>
 
 int main(){
     //1 打开一个文件
