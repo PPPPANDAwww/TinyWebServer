@@ -28,9 +28,9 @@ int main(){
     int ret = pthread_create(&tid, &attr, callback, NULL);
     if (ret != 0){
         char * errstr = strerror(ret);
-        printf("error:%s", errstr);
+        printf("error:%s\n", errstr);
     }
-    
+
     size_t size;
     pthread_attr_getstacksize(&attr, &size);
     printf("thread stack size :%ld\n", size);
